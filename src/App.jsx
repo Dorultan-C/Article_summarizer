@@ -11,8 +11,8 @@ const App = () => {
         <div className="gradient"/>
       </div>
       <div className="app">
-        <Demo/>
         <Hero/>
+        <Demo/>
       </div>
     </main>
      
