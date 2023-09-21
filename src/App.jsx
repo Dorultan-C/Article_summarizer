@@ -1,15 +1,21 @@
-import React from 'react'
+
+import Hero from './components/Hero'
+import Demo from './components/Demo'
+import '../src/App.css'
+
 
 const App = () => {
   return (
-    <>
-    <button>
-      <a href="https://www.youtube.com/watch?v=A6g8xc0MoiY" target="_blank" >Tutorial</a>
-    </button>
-    
-    <div>App</div>
-    </>
-    
+    <main>
+      <div className="main">
+        <div className="gradient"/>
+      </div>
+      <div className="app">
+        <Demo/>
+        <Hero/>
+      </div>
+    </main>
+     
   )
 }
 
